@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    gap: 10px;
+}
+
+.nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+#home{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.left p{
+     margin-top: 15px;
+     background-color: #ffffff8e;
+}
+.middle p{
+     margin-top: 15px;
+     background-color: #ffffff8e;
+}
+.middle h4{
+     margin-top: 15px;
+     background-color: #ffffff8e;
+}
+
+.middle a{
+    margin: 8px 5px;
+    text-decoration: none;
+}
+.right{
+     margin-top: 55px;
+     
+}
+.right p{
+     margin-top: 15px;
+     background-color: #ffffff8e;
+}
+.right h5{
+     margin-top: 15px;
+     background-color: #ffffff8e;
+}
+.right li{
+     margin-top: 10px;
+     background-color: #ffffff8e;
+}
+
+.truncate {
+    width: 300px;           
+  white-space: normal;     
+  word-wrap: break-word;           
+  }
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 5px;
+}
+.article h3{
+    margin: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .logo {
+        justify-content: center; 
+        gap: 5px; 
+    }
+
+    .nav ul {
+        flex-direction: column; 
+        gap: 5px; 
+    }
+
+    #projects {
+        flex-direction: column; 
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .left, .middle, .right {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+
+    .articles {
+        flex-direction: column; 
+        justify-content: center;
+        margin: 10px; 
+    }
+
+    .truncate {
+        width: 100%; 
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center; 
+        margin: 10px; 
+    }
+}
